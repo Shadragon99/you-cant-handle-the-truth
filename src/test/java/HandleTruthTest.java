@@ -7,10 +7,21 @@ public class HandleTruthTest {
     @Test
     public void makeshiftTest() {
 
+        HashMap ans = HandleTruth.wordCount();
+        //HandleTruth.wordCount();
+        //System.out.println("Here is answer: " + ans);
 
-        HandleTruth.wordCount();
-        System.out.println("Assert 'you' should be counted 18 times");
-        System.out.println("Is 'you' printed 18 times?" );
+        //Test 1
+        System.out.println("Assert 'you' should be present in HashMap");
+        System.out.println("Is 'you' present?");
+        System.out.print("Answer : " + ans.containsKey("you"));
+        System.out.println();
+
+        System.out.println("Assert 'you' should be present in HashMap");
+        System.out.println("Is 'you' present?");
+        System.out.print("Answer : " + ans.containsKey("you"));
+
+
 
     }
 }
