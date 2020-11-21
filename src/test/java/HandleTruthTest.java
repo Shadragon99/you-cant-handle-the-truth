@@ -42,8 +42,18 @@ public class HandleTruthTest {
     @Test
     public void makeshiftTest2() {
         //Test 3
-        //System.out.println("Assert 'you' should be present in HashMap 18 times");
-        //System.out.println("Is 'you' counted 18 times?");
+        System.out.println("Assert 'you' should be present in HashMap 18 times");
+        System.out.println("Is 'you' counted 18 times?");
         System.out.print("Answer : (you , " + ans.get("you") + ") " + ans.containsKey("you"));
+        System.out.println();
+    }
+
+    @Test
+    public void makeshiftTest3() {
+        //Test 4
+        System.out.println("Assert 'lives' should be present in HashMap 2 times");
+        System.out.println("Is 'lives' counted 2 times?");
+        System.out.print("Answer : (lives , " + ans.get("lives") + ") " + ans.containsKey("lives"));
+        System.out.println();
     }
 }
